@@ -7,7 +7,7 @@ export async function connect() {
         }
 
         await mongoose.connect(process.env.MONGO_URL, {
-            dbName: "NextJSAuth",
+            dbName: "Insta-clone",
         });
 
         const connection = mongoose.connection;
