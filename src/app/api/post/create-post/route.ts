@@ -1,3 +1,4 @@
+
 import Post from "@/models/post.model"
 import { connect } from "@/dbConfig/dbConfig";
 import { NextRequest, NextResponse } from "next/server";
