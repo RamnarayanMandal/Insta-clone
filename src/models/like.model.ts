@@ -13,10 +13,7 @@ const likeSchema = new mongoose.Schema({
         type:Boolean,
         default:false
     },
-    dislike:{
-        type:Boolean,
-        default:false
-    },
+  
 
 
 },{timestamps: true});
